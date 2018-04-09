@@ -1,0 +1,18 @@
+﻿#  colors file
+# 字颜色标题（绿色）
+BT_YS                        = 0xFF00FF00
+
+# 字颜色说明（白色）
+SM_YS                        = 0xFFFFFFFF
+
+# 目录颜色（白色）
+ML_YS                       = 0xFFFFFFFF
+
+# 可以按o颜色（绿色）
+ZC_YS                         = 0xFFFF7F00
+
+# 字颜色警告（红色）
+JG_YS                    = 0xFF7F00FF    
+
+# 字颜色提示（绿色）
+TS_YS                    = 0xFF00FF00 

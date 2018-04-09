@@ -1,0 +1,47 @@
+module_start:931: enso kernel module started
+check_mbr:245: check_mbr
+check_os0:156: checking os0
+find_active_os0:144: Partition 0, code=first_partition, type=raw, active=0, off=0x00000200, sz=0x00000400, flags=0x00000f1f, unk=0x00000000
+find_active_os0:144: Partition 1, code=slb2, type=raw, active=0, off=0x00004000, sz=0x00002000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 2, code=slb2, type=raw, active=1, off=0x00006000, sz=0x00002000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 3, code=os0, type=FAT16, active=0, off=0x00008000, sz=0x00008000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 4, code=os0, type=FAT16, active=1, off=0x00010000, sz=0x00008000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 5, code=sa0, type=FAT16, active=0, off=0x00018000, sz=0x00030000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 6, code=tm0, type=FAT16, active=0, off=0x00048000, sz=0x00010000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 7, code=vs0, type=FAT16, active=0, off=0x00058000, sz=0x00080000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 8, code=vd0, type=FAT16, active=0, off=0x000d8000, sz=0x00010000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 9, code=ud0, type=FAT16, active=0, off=0x000e8000, sz=0x00080000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 10, code=pd0, type=exFAT, active=0, off=0x00168000, sz=0x00098000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 11, code=ur0, type=exFAT, active=0, off=0x00200000, sz=0x0051a000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 12, code=empty, type=unknown, active=0, off=0x00000000, sz=0x0051a000, flags=0x00000000, unk=0x00000000
+find_active_os0:144: Partition 13, code=empty, type=unknown, active=0, off=0x00000000, sz=0x0071a000, flags=0x00000000, unk=0x00000000
+find_active_os0:144: Partition 14, code=empty, type=unknown, active=0, off=0x00000000, sz=0x0071a000, flags=0x00000000, unk=0x00000000
+find_active_os0:144: Partition 15, code=empty, type=unknown, active=0, off=0x00000000, sz=0x0071a000, flags=0x00000000, unk=0x00000000
+check_os0:198: got os0 crc32: 0xb776951d
+check_blocks:337: checking blocks
+check_blocks:375: crc32[2; 48] = 0x36d3cb69
+check_blocks:385: warning: got unknown checksum
+dump_blocks:289: dumping blocks to ux0:data/blocks.bin
+dump_blocks:320: copied successfully
+write_config:446: write_config
+write_config:451: writing config for PS Vita
+write_blocks:566: writing blocks 2-..
+write_blocks:633: success!
+find_active_os0:144: Partition 0, code=first_partition, type=raw, active=0, off=0x00000200, sz=0x00000400, flags=0x00000f1f, unk=0x00000000
+find_active_os0:144: Partition 1, code=slb2, type=raw, active=0, off=0x00004000, sz=0x00002000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 2, code=slb2, type=raw, active=1, off=0x00006000, sz=0x00002000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 3, code=os0, type=FAT16, active=0, off=0x00008000, sz=0x00008000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 4, code=os0, type=FAT16, active=1, off=0x00010000, sz=0x00008000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 5, code=sa0, type=FAT16, active=0, off=0x00018000, sz=0x00030000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 6, code=tm0, type=FAT16, active=0, off=0x00048000, sz=0x00010000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 7, code=vs0, type=FAT16, active=0, off=0x00058000, sz=0x00080000, flags=0x00000f0f, unk=0x00000000
+find_active_os0:144: Partition 8, code=vd0, type=FAT16, active=0, off=0x000d8000, sz=0x00010000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 9, code=ud0, type=FAT16, active=0, off=0x000e8000, sz=0x00080000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 10, code=pd0, type=exFAT, active=0, off=0x00168000, sz=0x00098000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 11, code=ur0, type=exFAT, active=0, off=0x00200000, sz=0x0051a000, flags=0x00000fff, unk=0x00000000
+find_active_os0:144: Partition 12, code=empty, type=unknown, active=0, off=0x00000000, sz=0x0051a000, flags=0x00000000, unk=0x00000000
+find_active_os0:144: Partition 13, code=empty, type=unknown, active=0, off=0x00000000, sz=0x0071a000, flags=0x00000000, unk=0x00000000
+find_active_os0:144: Partition 14, code=empty, type=unknown, active=0, off=0x00000000, sz=0x0071a000, flags=0x00000000, unk=0x00000000
+find_active_os0:144: Partition 15, code=empty, type=unknown, active=0, off=0x00000000, sz=0x0071a000, flags=0x00000000, unk=0x00000000
+write_mbr:740: success!
+module_stop:938: enso kernel module stopped

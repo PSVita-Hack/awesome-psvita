@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changeinfo>
+  <changes app_ver="01.01">
+    <![CDATA[
+<ul>
+<li>Fixed a bug with the ZIP extraction function when did not exist the ux0:customtheme/ folder.</li>
+</ul>
+    ]]>
+  </changes>  
+  <changes app_ver="02.00">
+    <![CDATA[
+<ul>
+<li>Added a new menu to install a Custom Theme from a local folder already existing on the Memory Card.</li>
+<li>Added a function to let the user to search for any keyword inside title, author or description of the Custom Themes in the online repository.</li>
+<li>Added a function to sort the Custom Themes in the online repository.</li>
+<li>Added an on-screen menu where the user can choose how to sort the Custom Themes in the online repository, such as by title, author, date or downloads number.</li>
+<li>Added a function to search for available updates directly inside the app.</li>
+<li>Added a function to download any available update (VPK package) directly inside the app.</li>
+<li>Added a function to launch molecularShell after the download to let the user to install the VPK package of the new version.</li>
+<li>Added the support for the PSVita front touchscreen in the main menu and in the online repository section.</li>
+<li>Added the thumbnail preview at the info screen before writing the Custom Themes' data into the database.</li>
+<li>Added a check for available space on Memory Card before to download and install a new Custom Theme.</li>
+<li>Added a confirmation screen for the reboot option to avoid unintentional reboots.</li>
+<li>Added the downloads number in the Custom Theme's details page of the online repository.</li>
+<li>Fixed the "Unknown error code" message for network errors: now the proper description of the error should be displayed.</li>
+<li>Fixed a bug that returned to main menu instead of to the repository section when the user canceled the procedure to download all the preview images of the Custom Themes available.</li>
+<li>Fixed a bug that removed some info/warning screens too quickly if the user kept pressed any button.</li>
+</ul>
+    ]]>
+  </changes>   
+  <changes app_ver="03.00">
+    <![CDATA[
+<h3>Online repository menu:</h3>
+<ul>
+<li>Added a new display mode for online repository custom themes. The new display mode is called "mini-grid" and will show 20 custom themes per page. In this way to navigate through the available custom themes and find what you are searching for will be faster and easier.</li>
+<li>Added a new feature that saves the last custom theme you saw in the online repository browser. In this way, when you'll access the online repository menu again, a "new" icon will appear on all the new custom themes inserted in the online repository from your last visit.</li>
+<li>Added in the online repository menu a new popup menu that will allow you to choose what display mode to use between the 3 available (list, grid and mini-grid).</li>
+<li>Added a percentage in the screen that appears when you download (or load) the preview images of the custom themes in the online repository browser.</li>
+<li>The function to download all the previews of the custom themes in the online repository menu will now dowload only the missing files (without downloading and overwriting the already existent ones). In this way the procedure (after the first run) is faster.</li>
+<li>Fixed a bug that did not center correctly the sort order popup menu in the online repository menu.</li>
+<li>Fixed a bug that loaded again the preview images of the custom themes in the online repository menu when the user changed the page even if it was already on the first or on the last page.</li>
+<li>Fixed a bug in the online repository menu that did not disable touch screen usage when switching from grid to list display mode.</li>
+<li>Fixed a serious bug in the online repository menu that could bring the custom themes list over the number of pages actually available causing obvious graphics and memory glitch.</li>
+</ul>
+<h3>Local installation menu:</h3>
+<ul>
+<li>Added a new feature into the installation from a local folder menu that allows you to install in batch all the available custom theme folders without the need to select them one by one.</li>
+<li>The list of folders into the installation from a local folder menu is now sorted in alphabetical order (useful to find a specific custom theme when there are many folders).</li>
+<li>Fixed a bug that happened when you started the batch installation of custom themes and there was no available folder.</li>
+</ul>
+<h3>Uninstallation menu:</h3>
+<ul>
+<li>Added a batch mode to the uninstallation menu: the user can now select multiple custom themes (or even all) and uninstall them in batch with just one tap!</li>
+<li>Added a new warning screen when batch mode is selected: the user will be notified of how many custom themes the uninstallation will apply to and ask the user for permission to proceed.</li>
+<li>Added a percentage in the loading screen of currently installed custom themes. This to avoid that the PSVita could seem freezed when there are dozens of custom themes installed to load.</li>
+<li>Added the ability to sort custom themes in the uninstallation menu: the user can now choose from 5 different sort orders (by title, by author, by size, by folder name and by installation date), so to find a specific custom theme will be even easier now.</li>
+<li>Added a new feature that deletes data of a custom theme only from the database, keeping their files on the Memory Card (useful for future re-installations).</li>
+<li>Added in the uninstallation menu the ability to change the custom theme that is currently displayed directly from its info screen (without the need to return to the list like it was in the past).</li>
+<li>Redesigned, in the uninstallation menu, the info screen about the installed custom theme: now you will also see information about title and version of the custom theme and the command list will now be a popup menu.</li>
+<li>Modified the uninstallation menu screen: now the installed custom themes list will cover the entire screen and the command list will now be a popup menu.</li>
+<li>Fixed a bug in the uninstallation menu that did not correctly display the error screen if an error occurred.</li>
+<li>Fixed a serious bug that did not properly release resources when the user left the uninstallation menu: in past versions this bug led the program to not load the images properly if the user came back into the uninstallation menu.</li>
+<li>Fixed a bug in the uninstallation menu that in case of no items in the list it still allowed the user to start the uninstallation procedure, which obviously caused weird behavior.</li>
+<li>Completely rewritten the commands in the uninstallation menu: please read the commands list again before using them because the same buttons now have very different behaviors from the past!</li>
+</ul>
+<h3>Cleaning/backup menu:</h3>
+<ul>
+<li>Now the cache cleaning function will no longer delete the backup of your database (app.db).</li>
+<li>Added a new function to delete only the backup of your database (app.db).</li>
+</ul>
+<h3>General:</h3>
+<ul>
+<li>Disabled the use of the PS button during all the operations that write into the database to avoid any corruption risk.</li>
+<li>Added a screen with percentage to the batch procedures (both installation and uninstallation) to avoid that the PSVita could seem freezed.</li>
+<li>Added a background music to the program.</li>
+<li>Added in the main menu an option to stop (and restart) the background music.</li>
+<li>Added the support for reading the strings used by the program from an external file: this means that now if you want you can translate the program by yourself in whatever language you want!</li>
+<li>Updated the lists scrolling mode: now when you go back up, the selection does not stay anymore on the bottom element in the list but it moves as it should normally do.</li>
+<li>Now all the variables will be cleaned when the user return to the main menu: this should avoid some latent bugs while loading images that might happen in the past versions after a deep use of the various available menus.</li>
+<li>Now, instead of warning the user to avoid to press the PS button during the most risky operations, the program will automatically disable (and then renable) the use of that button (thanks to TheFlow for reporting this feature).</li>
+<li>Fixed a bug that could corrupt the changelog in the application bubble menu.</li>
+<li>Fixed a bug that did not disable the analog stick when the user started an operation: this in the past versions could cause the change of the selection in the list before to start the operation on it.</li>
+<li>The program now uses the PVF characters set for the details about the custom themes in the online repository menu: since this new font is tighter and clearer, now there is a lower risk of shrinking the text to fit the screen width limits and so users can read the longer strings better.</li>
+<li>Removed the GekiHEN splash screen and its waiting for a few seconds at startup: now as soon as you start the application you will be immediately directed to its main menu.</li>
+<li>Recompiled with the latest VitaSDK version available.</li>
+</ul>
+    ]]>
+  </changes>    
+</changeinfo>

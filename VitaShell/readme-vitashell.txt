@@ -1,0 +1,1 @@
+替换ux0:路径下的 VitaShell即可汉化 Vitashell。
