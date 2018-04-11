@@ -46,27 +46,27 @@
 
 11、上传 vpk 文件夹☞`ux0:` 根目录
 
-> [**vitashell**][https://github.com/TheOfficialFloW/VitaShell/tree/master/release]：可通过 USB 上传文件的文件管理工具
+> **[vitashell](https://github.com/TheOfficialFloW/VitaShell/releases)**：可通过 USB 上传文件的文件管理工具
 >
-> [**enso**][https://github.com/henkaku/enso]：一键固化工具
+> **[enso](https://github.com/henkaku/enso/releases)**：一键固化工具
 >
-> [**vita 工具箱**][https://tieba.baidu.com/p/5501262034?see_lz=1]：一直改出品的vita 管理工具
+> **[vita 工具箱](https://tieba.baidu.com/p/5501262034?see_lz=1)**：一直改出品的vita 管理工具
 >
-> [maiDumpTool][https://github.com/BeniYukiMai/MaiDumpTool]：mai 安装游戏、补丁、DLC
+> [maiDumpTool](https://github.com/BeniYukiMai/MaiDumpTool/releases)：mai 安装游戏、补丁、DLC
 >
 > [pkgi](https://github.com/mmozeiko/pkgi/releases/tag/v0.05)：mmozeiko自制的在线游戏安装工具
 >
 > GameInstaller：从文件夹安装游戏
 >
-> [Ardrenaline](https://github.com/TheOfficialFloW/Adrenaline)：theflow0 自制的 PSP 模拟器
+> [Ardrenaline](https://github.com/TheOfficialFloW/Adrenaline/releases)： PSP 模拟器
 >
 > [RetroArch](https://buildbot.libretro.com/stable/1.7.1/playstation/vita/)：libretro出品的全能模拟器
 >
-> [GoHan](https://tieba.baidu.com/p/4803803268)：一粒米饭PSV 存档修改器
+> [GoHan](https://tieba.baidu.com/p/4803803268)：[一粒米饭](https://github.com/OneRice07) PSV 存档修改器
 >
-> [CTMANAGER](https://tieba.baidu.com/p/5178385283)：PSV 主题一键安装工具
+> [CTMANAGER](http://redsquirrel87.altervista.org/doku.php/custom-themes-manager)：PSV 主题一键安装工具
 >
-> Updater：3.65 升级工具
+> [Updater365](https://github.com/TheOfficialFloW/update365/releases)：3.65 升级工具
 
 12、断开 ftp 连接，打开『VitaShell』 依次安装上述软件。
 
@@ -86,6 +86,20 @@
 
 ## 三、TF 破解 ux0
 
+1、格式化 tf卡为 exFat 格式
+
+2、写入 zzBlank.img 镜像
+
+3、格式化 tf卡为 exFat 格式
+
+4、将 PSV ux0:根目录下的所有文件（包括隐藏文件）拷贝至 TF 卡
+
+5、PSV 内打开『VITA工具箱』，选择『 tf 卡和 USB 插件』选项卡，选择『 原装卡->uma0，tf 卡->ux0』，按照系统类型选择固化类型，重启机器，tf 卡破解成功。
+
+> uma0：目前仅可在相应路径存放 Ardrenaline 和 RetroArch 的游戏文件和资源文件
+
+
+
 ##四、如何安装游戏、DLC、以及游戏补丁？
 
 ## 五、VITASDK 使用手册
@@ -93,4 +107,6 @@
 
 
 ## 附录 ：名词详解
+
+
 
