@@ -2,5 +2,4 @@ RetroArch.vpk
 PSP2UPDAT.PUP
 .DS_Store
 package-lock.json
-node_mudules
-.gitignore
+node_mudules/
